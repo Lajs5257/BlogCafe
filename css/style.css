@@ -179,3 +179,12 @@ footer{
     color: var(--blanco);
     padding-bottom: 3rem;
 }
+
+/** nosotros **/
+@media (min-width: 768px){
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4rem;
+    }
+}
